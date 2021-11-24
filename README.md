@@ -28,3 +28,5 @@ This website is targeted to everybody that would like to have informations about
 ## Credits
 
 CSS Flexbox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+CSS video embedding code - https://css-tricks.com/fluid-width-video/

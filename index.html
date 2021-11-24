@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" id="logo-container-link">
             <h1 id="logo">Pet Therapy Playground</h1>
         </a>
         <nav id="navigation">
@@ -27,41 +27,49 @@
             </ul>
         </nav>
     </header>
-    <section class="home-sections" id="hero-image-section">
-        <div id="hero-image"></div>
-        <div id="hero-image-text">
+    <section class="hero-image">
+        <div class="hero-image-text">
             <h2>A Pet Therapy free playground open to everyone!</h2>
             <button><a href="contact-us.html">Where? I'm in already!</a></button>
         </div>
     </section>
-    <section class="home-sections explore-sections">
-        <div>
-            <h2>Discover the Benefits</h2>
-            <p>What results does people experience for their mental health?</p>
-            <button><a href="benefits.html">Explore</a></button>
+    <section>
+        <div class="description-side">
+            <div class="description-side-text-left">
+                <h2>Discover the Benefits</h2>
+                <p>What results does people experience for their mental health?</p>
+                <button><a href="benefits.html">Explore</a></button>
+            </div>
         </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/U_nDaGzam0A"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <div class="video-container">
+            <div class='embed-container'>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U_nDaGzam0A"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
         </div>
     </section>
-    <section class="home-sections explore-sections darker-background-section">
-        <div>
+    <section class="darker-background-section">
+        <div class="image-container">
             <picture>
-                <img src="assets/images/pexels-barbara-olsen-7882338.jpg" alt="Woman petting a horse, Photo by Barbara Olsen from Pexels">
+                <img src="assets/images/pexels-barbara-olsen-7882338.jpg"
+                    alt="Woman petting a horse, Photo by Barbara Olsen from Pexels">
             </picture>
         </div>
-        <div>
-            <h2>Discover the Types</h2>
-            <p>Are there different types? <br>
-                Which one would be better for you?
-            </p>
-            <button><a href="benefits.html">Explore</a></button>
+        <div class="description-side">
+            <div class="description-side-text-right">
+                <h2>Discover the Types</h2>
+                <p>Are there different types? <br>
+                    Which one would be better for you?
+                </p>
+                <button><a href="benefits.html">Explore</a></button>
+            </div>
         </div>
     </section>
-    <section class="home-sections explore-sections">Call to action - Book</section>
+    <section>
+        Call to action - Book
+    </section>
     <footer>
         Footer
     </footer>
