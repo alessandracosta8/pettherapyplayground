@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 /* General setting of the basic elements */
 
@@ -21,12 +21,15 @@ section {
     flex-wrap: wrap;
 }
 
+header {
+    background-color: #f8f7f1;
+}
+
 button {
     min-width: 2em;
     padding: 1em 3em;
     cursor: pointer;
     text-align: center;
-    white-space: nowrap;
     border-radius: 980px;
     background: #0E3040;
     color: #f8f7f1;
@@ -40,12 +43,19 @@ a {
     color: inherit;
 }
 
+footer {
+    background-color: #0E3040;
+    color: #fff;
+    padding: 4vh;
+    font-size: 0.8rem;
+}
+
 /* Logo styling */
 
 #logo {
     font-family: 'Gochi Hand', cursive;
     color: #0E3040;
-    padding: 1rem 2rem;
+    padding: 2vh 4vh;
 }
 
 #logo-container-link {
@@ -55,9 +65,9 @@ a {
 /* Navigation links */
 
 #navigation {
+    display: flex;
     flex-grow: 3;
-    align-content: center;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 #menu {
@@ -66,20 +76,21 @@ a {
     justify-content: flex-end;
     align-content: center;
     align-items: center;
-    padding: 1.5rem 2rem;
+    padding: 2vh 4vh;
 }
 
 #menu li {
+    font-weight: 500;
     list-style-type: none;
     margin: 0 1.2rem;
 }
 
 #menu a:hover {
-    border-top: 1px solid #0E3040;
+    border-bottom: 1px solid #0E3040;
 }
 
 .active {
-    border-top: 1px solid #0E3040;
+    border-bottom: 1px solid #0E3040;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -89,6 +100,10 @@ a {
 
     #logo-container-link {
         text-align: center;
+    }
+
+    #navigation {
+        justify-content: center;
     }
 
 }
@@ -106,7 +121,7 @@ a {
 /* Hero Image section */
 
 .hero-image {
-    height: 75vh;
+    height: 55vh;
     background: url(../images/patrick-hendry-jd0hS7Vhn_A-unsplash.jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
@@ -181,4 +196,47 @@ a {
 
 img {
     width: 100%;
+}
+
+/* Call to action sections */
+
+.yellow-section {
+    background-color: #eec049;
+}
+
+.call-to-action-description {
+    display: flex;
+    flex: 75%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.call-to-action-text {
+    text-align: left;
+    width: 75%;
+    padding: 5vh 0;
+}
+
+.call-to-action-button {
+    display: flex;
+    flex: 25%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.button-container { 
+    display: flex;
+    margin: auto;
+    width: 75%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.call-to-action-button button {
+    background: #f26440;
 }
