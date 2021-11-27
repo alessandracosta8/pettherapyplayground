@@ -53,6 +53,10 @@ footer {
     font-size: 0.8rem;
 }
 
+p {
+    padding: 0rem 0rem 1rem;
+}
+
 /* Logo styling */
 
 #logo {
@@ -372,4 +376,36 @@ img {
 
 .empty-container-65 {
     flex: 65%;
+}
+
+/* History page sections */
+
+.history-text-container {
+    flex: 70%;
+    padding: 2rem;
+}
+
+.history-photo-container {
+    flex: 30%;
+    padding: 2rem;
+}
+
+.history-images-background {
+    min-height: 55vh;
+    background: url(../images/alvan-nee-T-0EW-SEbsE-unsplash.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote-section {
+    display: block;
+    padding: 5vh;
+    text-align: center;
+}
+
+.quote {
+    font-size: 1.6rem;
 }
