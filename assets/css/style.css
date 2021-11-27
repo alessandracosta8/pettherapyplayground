@@ -183,7 +183,7 @@ footer {
 }
 
 .video-container-full-width {
-    flex:100%;
+    flex: 100%;
     padding: 3vh 15vh;
 }
 
@@ -268,6 +268,29 @@ img {
     background: #f26440;
 }
 
+.yellow-section-stack {
+    background-color: #eec049;
+    display: block;
+}
+
+.call-to-action-description-stack {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.call-to-action-button-stack {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.call-to-action-button-stack button {
+    background: #f26440;
+    margin: 0rem 2rem 2rem;
+}
+
 /* Paragraphs styles */
 
 .justified-paragraph {
@@ -301,17 +324,48 @@ img {
 /* Types images sections */
 
 .types-images-canine {
-    height: 55vh;
+    min-height: 55vh;
     background: url(../images/michael-oxendine-t7wwffh6x8E-unsplash.jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.types-images-dolphins {
+    min-height: 55vh;
+    background: url(../images/tj-fitzsimmons-vQGwNgWl2Ew-unsplash.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.types-images-equine {
+    min-height: 55vh;
+    background: url(../images/fabian-burghardt-A81818EFqGQ-unsplash.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.types-images-pigs {
+    min-height: 55vh;
+    background: url(../images/kameron-kincade-uiH6OYDuR44-unsplash.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .types-images-text {
     flex: 35%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     color: #0E3040;
     padding: 2rem;
 }
