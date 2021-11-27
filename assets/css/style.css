@@ -19,6 +19,9 @@ header,
 section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 header {
@@ -150,6 +153,14 @@ footer {
     align-items: center;
 }
 
+.description-side-larger {
+    display: flex;
+    flex: 65%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
 .description-side-text-left {
     text-align: left;
     margin: auto;
@@ -169,6 +180,11 @@ footer {
 .video-container {
     flex: 65%;
     padding: 6vw;
+}
+
+.video-container-full-width {
+    flex:100%;
+    padding: 3vh 15vh;
 }
 
 .embed-container {
@@ -194,8 +210,19 @@ footer {
     padding: 6vw;
 }
 
+.image-container-small {
+    flex: 35%;
+    padding: 6vw;
+}
+
 img {
     width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .image-container-small {
+        flex: 100%;
+    }
 }
 
 /* Call to action sections */
@@ -228,7 +255,7 @@ img {
     align-items: center;
 }
 
-.button-container { 
+.button-container {
     display: flex;
     margin: auto;
     width: 75%;
@@ -239,4 +266,56 @@ img {
 
 .call-to-action-button button {
     background: #f26440;
+}
+
+/* Paragraphs styles */
+
+.justified-paragraph {
+    text-align: justify;
+    padding: 2vh 0;
+}
+
+.text-centered {
+    text-align: center;
+    padding: 4vh 2vh 2vh 2vh;
+}
+
+.full-width {
+    clear: both;
+    padding: 2vh 6vh;
+    text-align: justify;
+}
+
+.three-columns-container {
+    align-items: flex-start;
+    padding: 2vh;
+}
+
+.three-columns-divs {
+    flex-grow: 1;
+    width: 33%;
+    padding: 2vh 4vh;
+    text-align: justify;
+}
+
+/* Types images sections */
+
+.types-images-canine {
+    height: 55vh;
+    background: url(../images/michael-oxendine-t7wwffh6x8E-unsplash.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.types-images-text {
+    flex: 35%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0E3040;
+    padding: 2rem;
+}
+
+.empty-container-65 {
+    flex: 65%;
 }
