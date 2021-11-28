@@ -474,3 +474,34 @@ img {
         margin: 1rem 0 2rem;
     }
 }
+
+.table-container {
+    overflow-x: auto;
+    padding: 3vh 6vw 3vh;
+    text-align: center;
+    background: #0E3040;
+    color: #fff;
+    margin: 4vh;
+}
+
+.table-container h2 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+td {
+    padding: 0.2rem 0.4rem;
+    border-top: 1px solid #fff;
+}
+
+thead {
+    font-weight: 700;
+}
+
+thead td {
+    border: none;
+}
+
+.table-day {
+    text-align: left;
+}
