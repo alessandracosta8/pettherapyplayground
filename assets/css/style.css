@@ -28,22 +28,10 @@ header {
     background-color: #f8f7f1;
 }
 
-button {
-    min-width: 2em;
-    padding: 1em 3em;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 980px;
-    background: #0E3040;
-    color: #f8f7f1;
-    margin: 1rem 0;
-    font-size: 1rem;
-    font-weight: 700;
-}
-
 a {
     text-decoration: none;
     color: inherit;
+    white-space: nowrap;
 }
 
 footer {
@@ -122,6 +110,29 @@ p {
 
     #menu li {
         padding: 0.5rem 0;
+    }
+}
+
+/* Links button styled */
+
+.button-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 700;
+    color: #f8f7f1;
+    background: #f26440;
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .button-link {
+        margin: 0 2rem 2rem;
     }
 }
 
@@ -268,31 +279,22 @@ img {
     align-items: center;
 }
 
-.call-to-action-button button {
-    background: #f26440;
-}
-
 .yellow-section-stack {
     background-color: #eec049;
-    display: block;
 }
 
 .call-to-action-description-stack {
-    display: block;
     margin: auto;
     text-align: center;
     padding: 2rem;
+    flex-basis: 100%;
 }
 
 .call-to-action-button-stack {
-    display: block;
     margin: auto;
     text-align: center;
-}
-
-.call-to-action-button-stack button {
-    background: #f26440;
-    margin: 0rem 2rem 2rem;
+    flex-basis: 100%;
+    min-height: 6rem;
 }
 
 /* Paragraphs styles */
