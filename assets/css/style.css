@@ -118,7 +118,7 @@ p {
 .button-link {
     display: inline-block;
     padding: 1rem 2rem;
-    margin: 2rem;
+    margin: 0 0.3rem 0.3rem 0;
     border-radius: 2rem;
     box-sizing: border-box;
     text-decoration: none;
@@ -128,6 +128,10 @@ p {
     text-align: center;
     transition: all 0.2s;
     cursor: pointer;
+}
+
+.blue-button {
+    background: #0E3040;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -152,6 +156,10 @@ p {
     padding: 2rem;
     text-align: center;
     align-self: center;
+}
+
+.hero-image-h2 {
+    padding: 2rem;
 }
 
 /* General sections */
@@ -410,4 +418,59 @@ img {
 
 .quote {
     font-size: 1.6rem;
+}
+
+/* Contact us sections */
+
+.form-container {
+    height: 55vh;
+    background: url(../images/girl-dog-INAlQoO6Y-unsplash.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: left;
+}
+
+.form-text {
+    padding: 6vh;
+    align-self: flex-start;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #0E3040;
+}
+
+.contact-fieldset {
+    text-align: left;
+}
+
+.contact-fieldset legend {
+    padding-bottom: 1rem;
+}
+
+.text-input {
+    width: 100%;
+    height: 1.6rem;
+    margin: 0.4rem 0 1.25rem;
+    border: 1px solid #fafafa;
+    border-radius: 0.1rem;
+}
+
+.form-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 700;
+    color: #f8f7f1;
+    background: #0E3040;
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .form-button {
+        margin: 1rem 0 2rem;
+    }
 }
