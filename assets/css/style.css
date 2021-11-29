@@ -50,6 +50,14 @@ p {
     padding: 0rem 0rem 1rem;
 }
 
+h2 {
+    padding-bottom: 1rem;
+}
+
+iframe {
+    border: 0px;
+}
+
 /* Logo styling */
 
 #logo {
@@ -429,6 +437,10 @@ img {
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
+}
+
+.history-images-background h3 {
+    display: none;
 }
 
 .quote-section {
