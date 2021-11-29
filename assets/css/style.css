@@ -37,8 +37,13 @@ a {
 footer {
     background-color: #0E3040;
     color: #fff;
-    padding: 4vh;
+    padding: 2vh;
     font-size: 0.8rem;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 1rem;
 }
 
 p {
@@ -111,6 +116,22 @@ p {
     #menu li {
         padding: 0.5rem 0;
     }
+}
+
+/* Social media links */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 1.7rem;
+    margin: 1%;
+    padding: 2vh;
 }
 
 /* Links button styled */
