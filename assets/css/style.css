@@ -70,6 +70,12 @@ iframe {
     flex-grow: 1;
 }
 
+@media only screen and (max-width: 375px) {
+    #logo {
+        font-size: 1.5rem;
+    }
+}
+
 /* Navigation links */
 
 #navigation {
