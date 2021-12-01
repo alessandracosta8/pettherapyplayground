@@ -30,3 +30,5 @@ This website is targeted to everybody that would like to have informations about
 CSS Flexbox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 CSS video embedding code - https://css-tricks.com/fluid-width-video/
+
+Visually hiding content that will be read by a screen reader - https://webaim.org/techniques/css/invisiblecontent/#offscreen

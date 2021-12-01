@@ -152,15 +152,11 @@ iframe {
     box-sizing: border-box;
     text-decoration: none;
     font-weight: 700;
-    color: #f8f7f1;
-    background: #f26440;
+    color: #fff;
+    background: #0E3040;
     text-align: center;
     transition: all 0.2s;
     cursor: pointer;
-}
-
-.blue-button {
-    background: #0E3040;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -538,3 +534,14 @@ thead td {
 .table-day {
     text-align: left;
 }
+
+/* Screen readers only content */
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
