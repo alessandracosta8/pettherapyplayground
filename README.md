@@ -2,35 +2,53 @@
 
 ![Responsive website mockup](assets/images/responsive-mockup.png)
 
-The Pet Therapy Playground project is a small static website for a fictional charity, supporting anybody in distress or struggling with their mental health, with free pet therapy in central London.
+The Pet Therapy Playground project is a small static website for a fictional charity, supporting anybody in distress or struggling with their mental health with free pet therapy in central London. The goal is to attract new possible users of the charity facility and inform as much people as possible about the benefits of Pet Therapy.
 
 Users of this website will be able to find useful information about the benefits of pet therapy, the different types available and the history of the practice. Most importantly they will be able to find informations about the Playground location, time of operations and how to get in contact with the staff, to book a session for themselves.
 This website is targeted to everybody that would like to have informations about this kind of therapy and would love to participate.
 
-<hr>
+The audience is very wide and goes from small children to older adults. This is why is important that the website is clear, simple and accessible to navigate for everybody, from parents wanting to bring their children to the facility, to employers organizing company activities or universities looking to support their students.   
+&nbsp;  
+
 
 ## Features
+<hr>
 
 ### Navigation
 The navigation menu at the top is designed to be simple to use and easy to find. The visual indicator of the current active page allows the user to orientate easily on the website.
+![navigation menu](assets/images/pet-therapy-playground-navigation-menu.png)
+&nbsp;
 
 ### Home Page
 The home page introduces immediately the user on what the website is about and has in the different sections a preview of what the user can find in the other pages if they want to go into more details about this subject.
+![home page screenshot](assets/images/home-page-screenshot.png)
+&nbsp;
 
 ### Footer
 The footer is designed to be minimalistic and provide clear links to the social media accounts. It is not too crowded and does not clutter the webpage.
+![footer screenshot](assets/images/footer-screenshot.png)
+&nbsp;
 
 ### Benefits page
 The benefits page is designed to introduce more detailed information about Pet Therapy, without beign plain and boring text, but integrating instead different videos on the subject to keep the user informed but also entertained.
+![benefits screenshot](assets/images/benefits-screenshot.png)
+&nbsp;
 
 ### Types page
 This page has also a lot of information available to the user. To keep the page interesting and visually appealing, the various sections are designed with appropriate and appealing background images.
+![types screenshot](assets/images/dolphins-type-screenshot.png)
+&nbsp;
 
 ### History page
 The History page containes together with the important informations, pictures of the people involved which helps the user to connect with the history of this practice and understand the value of the research that went into studing the benefits of Pet Therapy.
+![history screenshot](assets/images/history-screenshot.png)
+&nbsp;
 
 ### Contact page
 The Contuct page has a simple and clutter free design. The user is not overwealmed with information and can clearly find useful information like location and time of operation of the charity. The first section of the page is the contact form that allows the user to communicate with the staff or book a session, which makes it very easy to find and accessible.
+![contact screenshot](assets/images/contact-screenshot.png)
+&nbsp;
+
 
 <hr>
 
