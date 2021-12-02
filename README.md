@@ -95,5 +95,5 @@ Ho to embed a video into the page and keep it responsive was taken from [CSS Tri
 
 Visually hiding content that will be read by a screen reader was taken from [Webaim.org](https://webaim.org/techniques/css/invisiblecontent/#offscreen)
 
-Images are taken from [Unsplash](https://unsplash.com/)
+Images are taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)
 
