@@ -229,6 +229,17 @@ iframe {
     padding: 2rem 0;
 }
 
+@media only screen and (max-width: 1000px) {
+    .description-side {
+        flex-basis: 100%;
+    }
+
+    .description-side-text-left,
+    .description-side-text-right {
+        text-align: center;
+    }
+}
+
 /* Video / Images specific classes */
 
 .video-container {
@@ -336,11 +347,16 @@ img {
     min-height: 6rem;
 }
 
+@media only screen and (max-width: 1000px) {
+    .call-to-action-text {
+        text-align: center;
+    }
+}
+
 /* Paragraphs styles */
 
 .justified-paragraph {
     text-align: justify;
-    padding: 2vh 0;
 }
 
 .text-centered {
@@ -364,6 +380,12 @@ img {
     width: 33%;
     padding: 2vh 4vh;
     text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+    .three-columns-divs {
+        flex-basis: 100%;
+    }
 }
 
 /* Types images sections */
