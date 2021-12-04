@@ -2,13 +2,57 @@
 
 ![Responsive website mockup](assets/images/responsive-mockup.png)
 
-The Pet Therapy Playground project is a small static website for a fictional charity, supporting anybody in distress or struggling with their mental health with free pet therapy in central London. The goal is to attract new possible users of the charity facility and inform as much people as possible about the benefits of Pet Therapy.
+The Pet Therapy Playground project is a small static website for a fictional charity, supporting anybody in distress or struggling with their mental health with free pet therapy in central London.
 
-Users of this website will be able to find useful information about the benefits of pet therapy, the different types available and the history of the practice. Most importantly they will be able to find informations about the Playground location, time of operations and how to get in contact with the staff, to book a session for themselves.
+This project is for educational purposes only. My goal is to build responsive website with HTML and CSS only.
+
+&nbsp;  
+
+## Table of Contents
+<hr>
+- [UX](#ux)
+    - [Website owners goals](#website-owners-goals)
+    - [Users goals](#users-goals)
+
+
+&nbsp;
+
+## UX
+<hr>
+
+### Website owners goals
+The goal is to attract new possible users of the charity facility and inform them as much people as possible about the benefits of Pet Therapy.
 This website is targeted to everybody that would like to have informations about this kind of therapy and would love to participate.
 
-The audience is very wide and goes from small children to older adults. This is why is important that the website is clear, simple and accessible to navigate for everybody, from parents wanting to bring their children to the facility, to employers organizing company activities or universities looking to support their students.   
-&nbsp;  
+The audience is very wide and goes from small children to older adults. This is why is important that the website is clear, simple and accessible to navigate for everybody, from parents wanting to bring their children to the facility, to employers organizing company activities or universities looking to support their students. 
+
+### Users goals
+Users of this website will be able to find useful information about the benefits of pet therapy, the different types available and the history of the practice. Equally important, they will be able to find informations about the Playground location, time of operations and how to get in contact with the staff, to book a session for themselves.
+
+### Wireframes
+Initial wireframes of the design, created with Balsamiq.
+![wireframes](assets/images/wireframes.webp)
+
+### Website design elements
+#### Colors
+The colours chosen for the project are:
+* backfround color: #ffffff
+* sections highlight background color: #f8f7f1
+* sections - call to action background color: #eec049
+* font color: #0e3040
+* link and buttons background color: #0e3040
+* link and buttons text color: #ffffff
+
+#### Fonts
+The main font is the Poppins Google Font, and as a backup font sans-serif.
+The Pet Therapy Playground logo was produced using the Gochi Hand Google Font, and as a backup font cursive.
+
+#### Images
+Images are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)
+
+
+[Back to Table of contents](#table-of-contents)
+
 
 
 ## Features
@@ -95,5 +139,5 @@ Ho to embed a video into the page and keep it responsive was taken from [CSS Tri
 
 Visually hiding content that will be read by a screen reader was taken from [Webaim.org](https://webaim.org/techniques/css/invisiblecontent/#offscreen)
 
-Images are taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)
+Images are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)
 
