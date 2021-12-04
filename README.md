@@ -9,16 +9,32 @@ This project is for educational purposes only. My goal is to build responsive we
 &nbsp;  
 
 ## Table of Contents
-<hr>
+---
+
 - [UX](#ux)
     - [Website owners goals](#website-owners-goals)
     - [Users goals](#users-goals)
+    - [Wireframes](#wireframes)
+    - [Website design elements](#website-design-elements)
+        - [Colors](#colors)
+        - [Fonts](#fonts)
+        - [Images](#images)
+- [Features](#features)
+    - [Navigation](#navigation)
+    - [Home page](#home-page)
+    - [Footer](#footer)
+    - [Benefits page](#benefits-page)
+    - [Types page](#types-page)
+    - [History page](#history-page)
+    - [Contact page](#contact-page)
+- [Tecnologies used](#tecnologies-used)
+- [Testing and Validation](#testing-and-validation)
 
 
 &nbsp;
 
 ## UX
-<hr>
+---
 
 ### Website owners goals
 The goal is to attract new possible users of the charity facility and inform them as much people as possible about the benefits of Pet Therapy.
@@ -43,6 +59,9 @@ The colours chosen for the project are:
 * link and buttons background color: #0e3040
 * link and buttons text color: #ffffff
 
+The palette of color for the website is designed to have eccelent color contast and has been tested with the use of webaim.org Contast Checker. https://webaim.org/resources/contrastchecker/
+
+
 #### Fonts
 The main font is the Poppins Google Font, and as a backup font sans-serif.
 The Pet Therapy Playground logo was produced using the Gochi Hand Google Font, and as a backup font cursive.
@@ -53,14 +72,17 @@ Images are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexel
 
 [Back to Table of contents](#table-of-contents)
 
-
+&nbsp;  
 
 ## Features
-<hr>
+---
 
 ### Navigation
-The navigation menu at the top is designed to be simple to use and easy to find. The visual indicator of the current active page allows the user to orientate easily on the website.
 ![navigation menu](assets/images/pet-therapy-playground-navigation-menu.png)
+The navigation menu at the top is designed to be simple to use and easy to find. The visual indicator of the current active page allows the user to orientate easily on the website.
+The menu is responsive and the links adjust to a smaller viewport in a column layout.
+
+![mobile menu](assets/images/mobile-viewport-menu.jpg)
 &nbsp;
 
 ### Home Page
@@ -93,13 +115,35 @@ The Contuct page has a simple and clutter free design. The user is not overwealm
 ![contact screenshot](assets/images/contact-screenshot.png)
 &nbsp;
 
+### Future implementations
 
-<hr>
+* Create a Blog with updates about events and activities
+* Create live chat service for people in need of immediate response from the staff
+* Create forum as a space for user to communicate directly in-between each other through the website
+
+
+[Back to Table of contents](#table-of-contents)
+
+&nbsp;  
+
+
+## Tecnologies used
+- HTML as structure language
+- CSS as style language
+- Font Awesome as and icon library for social links
+- Google Fonts as font resource
+- GitHub as software hosting platform to keep project in a remote location
+- Git as version-control system tracking
+- GitPod as developer hosting platform
+- Balsamiq as wireframing tool application
+- GIMP (GNU Image Manipulation Program) as image editor
+
+[Back to Table of contents](#table-of-contents)
+
+&nbsp;  
 
 ## Testing and Validation
-
-### Color choices
-The palette of color for the website is designed to have eccelent color contast and has been tested with the use of webaim.org Contast Checker. https://webaim.org/resources/contrastchecker/
+---
 
 ### HTML and CSS
 The code of every page and the stylesheet has been tested with the W3C Markup Validation Service and the W3C CSS Validation Service. The errors found have been corrected.
