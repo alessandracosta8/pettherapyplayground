@@ -176,36 +176,50 @@ The website was tested with Chrome, Mozilla, Safari and Edge browsers on both a 
 ### Bugs
 Incorrect use of the aria-label tag was found with Lighthouse, since the tag was applied to the div container instead of the iframe tag. This was corrected.
 
+A bug was found when using Edge browser: two images were not loading correctly. Replaced the images using .webp format instead.
+
+![edge bug example 1](assets/images/bug-edge-1.webp)
+![edge bug example 2](assets/images/bug-edge-2.webp)
 
 
 ### Unfixed Bugs
 No unfixed bugs.
 
-<hr>
-
 ## Deployment
-The website was deployed using GitHub pages.
+---
+
+The website was deployed using GitHub Pages. Changes were committed to git version control system.
 
 Steps to deploy:
-- In the GitHub repository, navigate to the Settings tab.
+- In the [GitHub repository](https://github.com/alessandracosta8/pettherapyplayground), navigate to the Settings tab
 - From the side menu select Pages
-- The link to the live website can be found there.
+- The link to the live website can be found there
+![github pages link](assets/images/github-pages-link.webp)
 
 The live link can be found here also - https://alessandracosta8.github.io/pettherapyplayground/
 
+&nbsp;
 
+To run locally:
+- In the [GitHub repository](https://github.com/alessandracosta8/pettherapyplayground)
+- Select `Code` and select the dropdown menu, click Download the ZIP file
+- after the download, extract the files and use it in your local environment
 
-<hr>
+You are free to use this code, [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this [GitHub repository](https://github.com/alessandracosta8/pettherapyplayground) into your own github account.
+
+&nbsp;
 
 ## Credits
+---
 
 Code for the social media links in the footer was taken from CI Love Running project. 
 
-The use of CSS Flexbox was taken from [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+The use of CSS Flexbox was taken from [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-Ho to embed a video into the page and keep it responsive was taken from [CSS Tricks](https://css-tricks.com/fluid-width-video/)
+Ho to embed a video into the page and keep it responsive was taken from [CSS Tricks](https://css-tricks.com/fluid-width-video/).
 
-Visually hiding content that will be read by a screen reader was taken from [Webaim.org](https://webaim.org/techniques/css/invisiblecontent/#offscreen)
+Visually hiding content that will be read by a screen reader was taken from [Webaim.org](https://webaim.org/techniques/css/invisiblecontent/#offscreen).
 
-Images are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)
+Images are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
+Map embedded from [Google Maps](https://www.google.com/maps).
