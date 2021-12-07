@@ -146,13 +146,37 @@ The Contuct page has a simple and clutter free design. The user is not overwealm
 ---
 
 ### HTML and CSS
-The code of every page and the stylesheet has been tested with the W3C Markup Validation Service and the W3C CSS Validation Service. The errors found have been corrected.
+The code of every page and the stylesheet has been tested with:
+- W3C Markup Validation Service 
+- W3C CSS Validation Service. 
+
+The errors found have been corrected.
+
+&nbsp;
 
 ### Accessibility and Responsiveness
-The website has been tested with Chrome Deveoper Tools and Google Lighthouse to validate performance and accessibility ratings. The bugs and error were corrected with a score for every page over 90.
+The website has been tested with Chrome Deveoper Tools and Google Lighthouse to validate performance and accessibility ratings. The bugs and error were corrected.
+
+&nbsp;
+Desktop results:
+
+![lighthouse score desktop viewport](assets/images/lighthouse_desktop_results.jpg)
+
+&nbsp;
+Mobile results:
+
+![lighthouse score mobile viewport](assets/images/lighthouse_mobile_results.jpg)
+
+&nbsp;
+
+### Compatibility
+The website was tested using Chrome developer tools and Mozilla Developer tools.
+The website was tested with Chrome, Mozilla, Safari and Edge browsers on both a Mac computer and a Windows computer; it was also tested for mobile on an iPhone 6, iPhone 11, iPhone 13 Pro, Pixel 4, Pixel 5 and Galaxy S10.
 
 ### Bugs
 Incorrect use of the aria-label tag was found with Lighthouse, since the tag was applied to the div container instead of the iframe tag. This was corrected.
+
+
 
 ### Unfixed Bugs
 No unfixed bugs.
