@@ -192,6 +192,10 @@ A bug was found when using Edge browser: two images were not loading correctly. 
 ### Unfixed Bugs
 No unfixed bugs.
 
+[Back to Table of contents](#table-of-contents)
+
+&nbsp;  
+
 ## Deployment
 ---
 
@@ -214,7 +218,10 @@ To run locally:
 
 You are free to use this code, [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this [GitHub repository](https://github.com/alessandracosta8/pettherapyplayground) into your own github account.
 
-&nbsp;
+
+[Back to Table of contents](#table-of-contents)
+
+&nbsp;  
 
 ## Credits
 ---
@@ -230,3 +237,5 @@ Visually hiding content that will be read by a screen reader was taken from [Web
 Images are from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 Map embedded from [Google Maps](https://www.google.com/maps).
+
+[Back to Table of contents](#table-of-contents)
