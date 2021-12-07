@@ -29,6 +29,13 @@ This project is for educational purposes only. My goal is to build responsive we
     - [Contact page](#contact-page)
 - [Tecnologies used](#tecnologies-used)
 - [Testing and Validation](#testing-and-validation)
+    - [HTML and CSS](#html-and-css)
+    - [Accessibility and Responsiveness](#accessibility-and-responsiveness)
+    - [Compatibility](#compatibility)
+    - [Bugs](#bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 
 &nbsp;
