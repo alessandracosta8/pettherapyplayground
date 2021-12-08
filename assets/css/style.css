@@ -500,7 +500,7 @@ img {
 /* Contact us sections */
 
 .form-container {
-    height: 55vh;
+    min-height: 55vh;
     background: url(../images/girl-dog-unsplash.jpg) no-repeat center center;
     background-position: center;
     background-size: cover;

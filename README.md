@@ -33,6 +33,7 @@ This project is for educational purposes only. My goal is to build responsive we
     - [Accessibility and Responsiveness](#accessibility-and-responsiveness)
     - [Compatibility](#compatibility)
     - [Bugs](#bugs)
+        - [From the Slack feedback request](#from-the-slack-feedback-request)
     - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -183,11 +184,22 @@ The website was tested with Chrome, Mozilla, Safari and Edge browsers on both a 
 ### Bugs
 Incorrect use of the aria-label tag was found with Lighthouse, since the tag was applied to the div container instead of the iframe tag. This was corrected.
 
+&nbsp;
+
 A bug was found when using Edge browser: two images were not loading correctly. Replaced the images using .webp format instead.
 
 ![edge bug example 1](assets/images/bug-edge-1.webp)
 ![edge bug example 2](assets/images/bug-edge-2.webp)
 
+&nbsp;
+
+#### From the Slack feedback request
+A bug was found on mobile by Shellie Downie when browsing in mobile, the form container would overflow not allowing the user to see the button link.
+![mobile bug example](assets/images/bug-mobile-1.webp)
+![mobile bug example](assets/images/bug-mobile-2.webp)
+Fixed with the advice of Ian Meigh through Slack.
+
+&nbsp;
 
 ### Unfixed Bugs
 No unfixed bugs.
