@@ -195,8 +195,11 @@ A bug was found when using Edge browser: two images were not loading correctly. 
 
 #### From the Slack feedback request
 A bug was found on mobile by Shellie Downie when browsing in mobile, the form container would overflow not allowing the user to see the button link.
+
 ![mobile bug example](assets/images/bug-mobile-1.webp)
+
 ![mobile bug example](assets/images/bug-mobile-2.webp)
+
 Fixed with the advice of Ian Meigh through Slack.
 
 &nbsp;
