@@ -32,6 +32,10 @@ This project is for educational purposes only. My goal is to build responsive we
     - [HTML and CSS](#html-and-css)
     - [Accessibility and Responsiveness](#accessibility-and-responsiveness)
     - [Compatibility](#compatibility)
+    - [User stories testing](#user-stories-testing)
+        - [Website owner](#website-owner)
+        - [New visitor](#new-visitor)
+        - [Returning visitor](#returning-visitor)
     - [Bugs](#bugs)
         - [From the Slack feedback request](#from-the-slack-feedback-request)
     - [Unfixed Bugs](#unfixed-bugs)
@@ -180,6 +184,48 @@ Mobile results:
 ### Compatibility
 The website was tested using Chrome developer tools and Mozilla Developer tools.
 The website was tested with Chrome, Mozilla, Safari and Edge browsers on both a Mac computer and a Windows computer; it was also tested for mobile on an iPhone 6, iPhone 11, iPhone 13 Pro, Pixel 4, Pixel 5 and Galaxy S10.
+
+&nbsp;
+
+### User stories testing
+Users of this website will be able to find useful information about the benefits of pet therapy, the different types available and the history of the practice. Equally important, they will be able to find informations about the Playground location, time of operations and how to get in contact with the staff, to book a session for themselves.
+
+
+#### Website owner
+- Easy to find information about what the charity is about and informations about the therapy itself.
+    > Easy to navigate menu that clearly states the key information needed to the potential visitor looking to have more specific insight.
+
+- Easy access to contact page for new and returning visitors to get in contact with the staff and discuss specifics or booking visits.
+    > Multiple access to contact page, from menu, from hero image in the home page and multiple call to action section in every page of the website.
+
+    > Clear indication of contact informations and location.
+
+- Customers are able to learn to use the website intuitively and easily.
+    > Easy and consisten access to navigation menu, in a popular top of the page position.
+
+    > Visible and intuitive buttons that connect the visitor to the appropriate page or to contact informations.
+
+    > Always available links to social media in the footer on every page to be able to access and get in contact through the charity social media accounts.
+
+
+#### New visitor
+- Easy to find information about the benefits, history and types of this therapy.
+    > Immidiate access to information from the menu, clearly indicating the various pages with appropriate naming.
+
+- Contact information, times and locations to clearly accessible.
+    > Clear contact informations and location available to the customer with Google Maps which integrates links to continue navigation on their mobile app.
+
+    > Clear time table with opening hours and their specifics easy to read.
+
+
+#### Returning visitor
+- Quick and easy access to contact page and booking form.
+    > Direct links to contact page and form easy to find in the menu and in every page, through a call to action section with an intuitive button.
+
+    > Links to social media always available in the footer section for every page of the website.
+
+
+&nbsp;
 
 ### Bugs
 Incorrect use of the aria-label tag was found with Lighthouse, since the tag was applied to the div container instead of the iframe tag. This was corrected.
