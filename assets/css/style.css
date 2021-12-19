@@ -593,3 +593,20 @@ thead td {
     height:1px;
     overflow:hidden;
     }
+
+
+/* 404 styling */
+
+.section-404 {
+    display: block;
+    text-align: center;
+    padding: 8vw;
+}
+
+.section-404 h1 {
+    font-size: 9rem;
+}
+
+.section-404 a {
+    margin: 2rem;
+}
