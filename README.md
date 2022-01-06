@@ -27,7 +27,7 @@ This project is for educational purposes only. My goal is to build responsive we
     - [Types page](#types-page)
     - [History page](#history-page)
     - [Contact page](#contact-page)
-- [Tecnologies used](#tecnologies-used)
+- [Technologies used](#tecnologies-used)
 - [Testing and Validation](#testing-and-validation)
     - [HTML and CSS](#html-and-css)
     - [Accessibility and Responsiveness](#accessibility-and-responsiveness)
@@ -139,7 +139,7 @@ The Contuct page has a simple and clutter free design. The user is not overwealm
 &nbsp;  
 
 
-## Tecnologies used
+## Technologies used
 - HTML as structure language
 - CSS as style language
 - Font Awesome as and icon library for social links
@@ -291,7 +291,7 @@ Code for the social media links in the footer was taken from CI Love Running pro
 
 The use of CSS Flexbox was taken from [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-Ho to embed a video into the page and keep it responsive was taken from [CSS Tricks](https://css-tricks.com/fluid-width-video/).
+How to embed a video into the page and keep it responsive was taken from [CSS Tricks](https://css-tricks.com/fluid-width-video/).
 
 Visually hiding content that will be read by a screen reader was taken from [Webaim.org](https://webaim.org/techniques/css/invisiblecontent/#offscreen).
 
