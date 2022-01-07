@@ -260,15 +260,19 @@ No unfixed bugs.
 ## Deployment
 ---
 
-The website was deployed using GitHub Pages. Changes were committed to git version control system.
+The website was deployed using GitHub Pages. I have used Gitpod as a development environment and changes were committed to git version control system. With the push command from Gitpod I've saved regularly in GitHub my code.
 
 Steps to deploy:
-- In the [GitHub repository](https://github.com/alessandracosta8/pettherapyplayground), navigate to the Settings tab
-- From the side menu select Pages
-- The link to the live website can be found there
+- Log in into GitHub and select the repository [GitHub repository](https://github.com/alessandracosta8/pettherapyplayground) to deploy
+- Navigate to the `Settings` tab 
+- From the side menu select the `Pages` section
+- Select the `main` branch and `save`
+
+
+> The website was published
 ![github pages link](assets/images/github-pages-link.webp)
 
-The live link can be found here also - https://alessandracosta8.github.io/pettherapyplayground/
+The live link - https://alessandracosta8.github.io/pettherapyplayground/
 
 &nbsp;
 
