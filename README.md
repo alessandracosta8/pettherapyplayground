@@ -1,4 +1,4 @@
-# Pet Theraphy Playground project
+# Pet Therapy Playground project
 
 ![Responsive website mockup](assets/images/responsive-mockup.png)
 
